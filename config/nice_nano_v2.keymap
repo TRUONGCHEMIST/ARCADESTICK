@@ -7,11 +7,31 @@
 
         default_layer {
             bindings = <
-                &kp A &kp B &kp C &kp D &kp E
-                &kp F &kp G &kp H &kp I &kp J
-                &kp K &kp L &kp M &kp N &kp O
-                &kp P &kp Q &kp R &kp S &kp T
-                &kp U
+                &kp C      /* P0.06 */
+                &kp V    /* P0.08 */
+                &kp LEFT    /* P0.17 */
+                &kp RIGHT   /* P0.20 */
+
+                &kp DOWN       /* P0.22 */
+                &kp UP       /* P0.24 */
+                &kp U       /* P1.00 */
+                &kp I       /* P0.11 */
+
+                &kp O       /* P1.04 */
+                &kp P       /* P1.06 */
+                &kp A       /* P0.31 */
+                &kp D       /* P0.29 */
+
+                &kp S   /* P0.02 */
+                &kp W     /* P1.15 */
+                &kp G   /* P1.13 */
+                &kp H     /* P1.11 */
+
+                &kp B      /* P1.01 */
+                &kp N      /* P1.02 */
+                &kp M      /* P1.07 */
+                &kp K      /* P0.09 */
+                &kp J      /* P0.10 */
             >;
         };
     };
