@@ -8,7 +8,7 @@
 
         default_layer {
             bindings = <
-                &bt BT_CLR      /* P0.06 */
+                &bt BT_CLR_ALL      /* P0.06 */
                 &kp V    /* P0.08 */
                 &kp LEFT    /* P0.17 */
                 &kp RIGHT   /* P0.20 */
