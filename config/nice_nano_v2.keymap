@@ -8,8 +8,8 @@
 
         default_layer {
             bindings = <
-                &kp N2      /* P0.06 */
-                &kp N3      /* P0.08 */
+                &bt BT_CLR_ALL      /* P0.06 */
+                &kp F10      /* P0.08 */
                 &kp A        /* P0.17 */
                 &kp D       /* P0.20 */
 
@@ -28,9 +28,9 @@
                 &kp KP_N4   /* P1.13 */
                 &kp KP_N5     /* P1.11 */
 
-                &bt BT_CLR_ALL      /* P1.01 */
-                &kp N4      /* P1.02 */
-                &kp F6      /* P1.07 */
+                &kp N1      /* P1.01 */
+                &kp N2      /* P1.02 */
+                &kp N3      /* P1.07 */
                 &kp KP_N2      /* P0.09 */
                 &kp KP_N1      /* P0.10 */
             >;
